@@ -1,9 +1,5 @@
 import cv2
 from fer import FER
-from tensorflow import keras
-from tensorflow.keras.preprocessing.image import img_to_array
-import numpy as np
-import time
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 emotion_detector = FER(mtcnn=True)
