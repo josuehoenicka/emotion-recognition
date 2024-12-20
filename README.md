@@ -1,11 +1,17 @@
-# Step 1
-python -m venv myenv
+### Step 1
 
-# Step 2
-myenv\Scripts\activate
+<code>python -m venv myenv</code>
 
-# Step 3
-pip install tensorflow
+### Step 2
 
-# Step 4
-python <filename>
+<code>myenv\Scripts\activate</code>
+
+### Step 3
+
+<code>pip install tensorflow</code>
+<code>pip install numpy</code>
+<code>pip install cv2</code>
+
+### Step 4
+
+<code>python main.py</code>
